@@ -1,0 +1,24 @@
+{
+  "name": "gopro2csv",
+  "version": "1.0.0",
+  "description": "Package to extract GoPro Hero 8's metadata and put it in a CSV file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babindemers/gopro2csv.git"
+  },
+  "author": "William Babin-Demers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babindemers/gopro2csv/issues"
+  },
+  "homepage": "https://github.com/babindemers/gopro2csv#readme",
+  "dependencies": {
+    "gopro-telemetry": "^0.6.60",
+    "gpmf-extract": "^0.1.14"
+  }
+}
